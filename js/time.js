@@ -2,8 +2,8 @@ const time = document.querySelector(".status-ber__time");
 
 function getTime() {
   const now = new Date();
-  const hours = String(now.getHours()).padEnd(2, 0);
-  const mins = String(now.getMinutes()).padEnd(2, 0);
+  const hours = String(now.getHours()).padStart(2, 0);
+  const mins = String(now.getMinutes()).padStart(2, 0);
   time.innerText = `${hours}:${mins}`;
 }
 
