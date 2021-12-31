@@ -24,11 +24,6 @@
 }
 
 .nav__alert {
-  display: flex;
-  background-color: tomato;
-  height: 5px;
-  width: 5px;
-  border-radius: 2.5px;
   position: absolute;
   bottom: 30px;
   left: 30px;

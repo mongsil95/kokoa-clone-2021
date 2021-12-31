@@ -1,12 +1,16 @@
 .user-component {
   display: flex;
-  margin: 10px 0px 20px;
+  margin: 20px 0px 10px;
   justify-content: space-between;
 }
 
 .user-component__column {
   display: flex;
   align-items: center;
+}
+
+.user-component__column i {
+  color: black;
 }
 
 .user-component__avatar {
@@ -47,12 +51,12 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.user-component__column--chat {
+.user-component__column__subtitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .user-component-time {

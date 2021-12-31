@@ -6,6 +6,9 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/dot.css";
+@import "components/screen-division.css";
+@import "components/icon-row.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";

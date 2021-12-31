@@ -25,9 +25,14 @@
 
     <header class="screen-header">
       <h1 class="screen-header__title">Find</h1>
-      <div class="screen-header__icon">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+      <div class="screen-header-icons">
+        <span class="screen-header-icons__icon"
+          ><i class="fas fa-search fa-lg"></i
+        ></span>
+        <span class="screen-header-icons__icon">
+          <i class="fas fa-cog fa-lg"></i>
+          <span class="screen-header__dot dot"></span>
+        </span>
       </div>
     </header>
 
@@ -48,6 +53,97 @@
         <div class="find-icons__icon">
           <i class="far fa-envelope fa-2x"></i>
           <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="recommended-friends">
+        <div class="screen-division__title">
+          <span> Recommended Friends</span>
+        </div>
+        <div class="recommended-friedns__message">
+          <span>You have no recommended friends</span>
+        </div>
+      </div>
+
+      <div class="open-chat">
+        <div class="screen-division__title">
+          <span>Open Chat</span>
+          <div>
+            <span>Go to Openchat Home</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+        <div class="openchat-component">
+          <div class="openchat-component__column">
+            <div class="openchat-component__text">
+              <h4 class="openchat-component__username">#bts</h4>
+              <h6 class="openchat-component__subtitle">#bts#army#friends</h6>
+            </div>
+            <div class="openchat-component__situation">
+              <img
+                class="openchat-component__situation__photo"
+                src="https://avatars.githubusercontent.com/u/89757141"
+              />
+              <span
+                class="
+                  openchat-component__situation__members
+                  openchat-component__subtitle
+                "
+                >806 members |
+              </span>
+              <span class="openchat-component__situation__condition">
+                Active</span
+              >
+            </div>
+          </div>
+          <div class="openchat-component__avatar">
+            <img
+              src="http://pm1.narvii.com/6515/14767c630a703a0332f90bd472d8ecaf56a02f34_00.jpg"
+              class="openchat-component__avatar__photo"
+            />
+            <div class="openchat-component__avatar__like">
+              <div class="openchat-component__avatar__like__icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h6 class="openchat-component__avatar__like-num">236</h6>
+            </div>
+          </div>
+        </div>
+        <div class="openchat-component">
+          <div class="openchat-component__column">
+            <div class="openchat-component__text">
+              <h4 class="openchat-component__username">#bts</h4>
+              <h6 class="openchat-component__subtitle">#bts#army#friends</h6>
+            </div>
+            <div class="openchat-component__situation">
+              <img
+                class="openchat-component__situation__photo"
+                src="https://avatars.githubusercontent.com/u/89757141"
+              />
+              <span
+                class="
+                  openchat-component__situation__members
+                  openchat-component__subtitle
+                "
+                >806 members |
+              </span>
+              <span class="openchat-component__situation__condition">
+                Active</span
+              >
+            </div>
+          </div>
+          <div class="openchat-component__avatar">
+            <img
+              src="http://pm1.narvii.com/6515/14767c630a703a0332f90bd472d8ecaf56a02f34_00.jpg"
+              class="openchat-component__avatar__photo"
+            />
+            <div class="openchat-component__avatar__like">
+              <div class="openchat-component__avatar__like__icon">
+                <i class="fas fa-heart"></i>
+              </div>
+              <h6 class="openchat-component__avatar__like-num">236</h6>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -73,7 +169,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="more.html"
             ><i class="fas fa-ellipsis-h fa-2x"></i>
-            <span class="nav__alert"></span>
+            <span class="nav__alert dot"></span>
           </a>
         </li>
       </ul>

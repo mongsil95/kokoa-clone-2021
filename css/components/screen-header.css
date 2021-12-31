@@ -7,6 +7,7 @@
   width: 100%;
   box-sizing: border-box;
   top: 20px;
+  background-color: white;
 }
 
 .screen-header__title {
@@ -14,6 +15,13 @@
   font-weight: 600;
 }
 
-.screen-header__icon span {
+.screen-header-icons__icon {
   margin-left: 25px;
+  position: relative;
+}
+
+.screen-header__dot {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
 }
