@@ -1,21 +1,3 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80px;
-  text-align: center;
-}
-
-.find-icons__icon span {
-  margin-top: 15px;
-  height: 30px;
-}
-
 .recommended-friedns__message {
   margin: 100px 0px;
   color: rgba(0, 0, 0, 0.6);

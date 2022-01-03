@@ -1,0 +1,20 @@
+.more-screen .icon-row {
+  margin-top: 25px;
+}
+
+.more-suggestions-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions-icon {
+  margin-top: 25px;
+  width: 25%;
+  text-align: center;
+}
+
+.more-suggestions-icon__photo {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
