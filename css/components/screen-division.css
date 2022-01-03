@@ -9,3 +9,7 @@
 .screen-division__title div {
   color: rgba(0, 0, 0, 0.3);
 }
+
+.screen-division__title--more-top-margin {
+  margin-top: 10px;
+}

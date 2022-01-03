@@ -1,0 +1,31 @@
+.setting-column {
+  padding: 30px 0px;
+  font-size: 20px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.03);
+}
+
+.setting-menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-menus__main {
+  display: flex;
+  align-items: center;
+}
+.setting-menus__main i {
+  width: 20px;
+}
+
+.setting-menus__title {
+  margin-left: 20px;
+}
+
+.setting-menus__subtitle {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.setting-column__non-borderline {
+  border-bottom: none;
+}
