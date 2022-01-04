@@ -7,9 +7,6 @@
   height: 100%;
 }
 
-.chat__section {
-}
-
 .chat__timestamp {
   display: flex;
   justify-content: center;
@@ -117,7 +114,7 @@
 
 .reply__input-box input {
   border: none;
-  width: 80%;
+  width: 100%;
 }
 
 .reply__input-box__btn {
@@ -133,4 +130,8 @@
 
 .reply__input-box__btn:last-child {
   background-color: var(--yellow);
+}
+
+.reply__input-box div {
+  display: flex;
 }
