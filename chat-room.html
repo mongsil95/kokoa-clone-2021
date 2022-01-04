@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kokoa Talk</title>
+  </head>
+  <body id="chat-room">
+    <div class="status-bar chat-room--background">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-ber__time">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-screen-header chat-room--background">
+      <div class="alt-screen-header__column">
+        <a a href="#" onClick="history.back();">
+          <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
+      </div>
+      <div class="alt-screen-header__column">
+        <h1 class="alt-screen-header__title">Kokoa Talk</h1>
+      </div>
+      <div class="alt-screen-header__column">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+
+    <main class="main-screen chat">
+      <div class="chat__section">
+        <div class="chat__timestamp">
+          <span>Thesday, January 1, 2022</span>
+        </div>
+        <div class="chat__author">
+          <img
+            class="chat__author__photo"
+            src="https://stickershop.line-scdn.net/stickershop/v1/product/11538395/LINEStorePC/main.png;compress=true"
+          />
+          <div class="chat__author__messages">
+            <h1 class="chat__author__messages__name">Kokoa Talk</h1>
+            <div class="chat__author__messages__message">
+              <span class="chat__author__messages__text">Hi!</span>
+              <span class="chat__author__messages__time">00:00</span>
+            </div>
+          </div>
+        </div>
+        <div class="chat__user">
+          <div class="chat__user__message">
+            <span class="chat__user__message__time">00:00</span>
+            <span class="chat__user__message__text">hello</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <div class="reply__input-box">
+          <input type="text" placeholder="Write a message..." />
+          <button class="reply__input-box__btn">
+            <i class="far fa-smile-wink fa-lg"></i>
+          </button>
+          <button class="reply__input-box__btn">
+            <i class="fas fa-arrow-up fa-lg"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/time.js"></script>
+  </body>
+</html>

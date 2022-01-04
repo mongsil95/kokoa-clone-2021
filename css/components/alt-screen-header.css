@@ -15,14 +15,19 @@
   font-weight: 500;
 }
 
-.alt-screen-header__column:first-child {
-  margin-right: auto;
+.alt-screen-header__column {
+  width: 33%;
+}
+
+.alt-screen-header__column:nth-child(2) {
+  text-align: center;
 }
 
 .alt-screen-header__column:last-child {
-  margin-left: auto;
+  display: flex;
+  justify-content: end;
 }
 
 .alt-screen-header__column:last-child i {
-  margin-left: 10px;
+  margin-left: 20px;
 }

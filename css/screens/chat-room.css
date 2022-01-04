@@ -1,0 +1,136 @@
+#chat-room,
+.chat-room--background {
+  background-color: grey;
+}
+
+.chat {
+  height: 100%;
+}
+
+.chat__section {
+}
+
+.chat__timestamp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat__timestamp span {
+  display: block;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.chat__author {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+}
+
+.chat__author__photo {
+  height: 40px;
+  width: 40px;
+  background-color: thistle;
+  border-radius: 10px;
+}
+
+.chat__author__messages {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chat__author__messages__message,
+.chat__user__message {
+  margin-top: 10px;
+  display: flex;
+  align-items: end;
+}
+
+.chat__author__messages__text {
+  color: black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+.chat__author__messages__time {
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.chat__user {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chat__user__message__time {
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+.chat__user__message__text {
+  padding: 10px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  color: black;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.reply__column:first-child {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.reply__column:last-child {
+  width: 100%;
+}
+
+.reply__input-box {
+  border: var(--divide-line);
+  padding: 3px 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reply__input-box input {
+  border: none;
+  width: 80%;
+}
+
+.reply__input-box__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}
+
+.reply__input-box__btn:last-child {
+  background-color: var(--yellow);
+}
