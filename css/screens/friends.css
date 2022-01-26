@@ -54,4 +54,5 @@
   align-items: center;
   animation: hide-loading-screen 0.3s ease-in-out forwards;
   animation-delay: 1s;
+  z-index: 3;
 }

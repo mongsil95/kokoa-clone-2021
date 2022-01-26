@@ -9,6 +9,7 @@
 .open-chat {
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .openchat-component {
@@ -96,4 +97,20 @@
   height: 20px;
   width: 55px;
   border-radius: 10px;
+}
+
+@keyframes heartBeat {
+  from {
+    opacity: 0.2;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.openchat-component__avatar__like:hover
+  .openchat-component__avatar__like__icon {
+  animation: heartBeat 0.7s infinite ease-in-out;
 }
